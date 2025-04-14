@@ -20,10 +20,6 @@ x-shared: &shared
     - QUEUE_HEALTH_CHECK_ACTIVE=true
     - N8N_ENCRYPTION_KEY=${ENCRYPTION_KEY}
     - WEBHOOK_URL=${WEBHOOK_URL}
-    # - N8N_HOST=${N8N_HOST}
-    # - N8N_PORT=${N8N_PORT}
-    # - N8N_PROTOCOL=${N8N_PROTOCOL}
-    # - VUE_APP_URL_BASE_API=${VUE_APP_URL_BASE_API}
 
   links:
     - postgres
